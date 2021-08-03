@@ -151,57 +151,94 @@
       <!-- begin nav offcanvas -->
       <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
         aria-labelledby="offcanvasExampleLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <div class="offcanvas-header custom-offcanvas-header">
+          <a href=""><img src="./images/icon-user-white.svg" width="55" alt=""></a>
+          <div class="login-offcanvas">
+            Olá, <br> Faça <a href="https://www.hering.com.br/store/pt/login/register">login</a> ou <a
+              href="https://www.hering.com.br/store/pt/login/register">cadastre-se</a>
+          </div>
+          <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-          <div>
-            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists,
-            etc.
+          <div class="menu-offcanvas">
+            <h3 class="my-3">Categorias</h3>
+            <ul class="menu-offcanvas-items">
+              <li class="menu-offcanvas-item"><a href="">Novidades</a></li>
+              <li class="menu-offcanvas-item"><a href="">Básicos</a></li>
+              <li class="menu-offcanvas-item"><a href="">Jeans</a></li>
+              <li class="menu-offcanvas-item"><a href="">Feminino</a></li>
+              <li class="menu-offcanvas-item"><a href="">Masculino</a></li>
+              <li class="menu-offcanvas-item"><a href="">Kids</a></li>
+              <li class="menu-offcanvas-item"><a href="">Intimates</a></li>
+              <li class="menu-offcanvas-item"><a href="">Outlet</a></li>
+              <li class="menu-offcanvas-item"><a href="">Combos</a></li>
+              <li class="menu-offcanvas-item"><a href="">Todo Momento</a></li>
+            </ul>
+
           </div>
         </div>
       </div>
     </nav>
     <!-- end nav offcanvas -->
-    <main>
-      <!-- begin carrosel principal -->
-      <section>
+  </header>
+  <main>
+    <!-- begin carrosel principal -->
+    <section>
+      <div class="row carrosel-principal">
+        <div class="col-12">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active img-carousel img-carousel-1">
 
-
-        <div class="row carrosel-principal">
-          <div class="col-12">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active img-carousel img-carousel-1">
-
-                </div>
-                <div class="carousel-item img-carousel img-carousel-2">
-
-                </div>
-                <div class="carousel-item img-carousel img-carousel-3">
-                </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+              <div class="carousel-item img-carousel img-carousel-2">
+
+              </div>
+              <div class="carousel-item img-carousel img-carousel-3">
+              </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
-      </section>
-      <!-- end carrosel principal -->
+      </div>
+    </section>
+    <!-- end carrosel principal -->
+    <!-- begin produtos -->
+    <section class="container produtos">
+      <div class="row">
+        <h3 class="col-12 text-center mb-4">Descontos Imperdíveis</h3>
+
+        <div class="produto text-center col-12 col-md-6 col-lg-4 col-xl-3">
+          <img class="img-fluid w-100 mb-2" src="./images/produto-1.webp" alt="">
+          <a class="produto-link" href="">Camiseta Unissex Manga Curta Com Estampa Nasa</a>
+          <div class="precos my-3 d-flex justify-content-around">
+            <div class="preco-antigo">R$ 49,99</div>
+            <div class="preco-atual">R$ 19,99</div>
+          </div>
+        </div>
+        
+
+      </div>
 
 
-    </main>
+    </section>
+    <!-- end produtos -->
+  </main>
+  <!-- begin footer  -->
+  <footer></footer>
+  <!-- end footer  -->
 
-  </header>
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
