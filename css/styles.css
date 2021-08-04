@@ -42,6 +42,10 @@ body {
 
 /* begin nav desktop */
 
+nav {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
@@ -172,12 +176,16 @@ body {
     border-radius: 3px 0 0 3px;
 }
 
-.desconto-40::before {
-    content: "40% OFF";
+.desconto-29::before {
+    content: "29% OFF";
 }
 
 .desconto-38::before {
     content: "38% OFF";
+}
+
+.desconto-40::before {
+    content: "40% OFF";
 }
 
 .produto-link {
