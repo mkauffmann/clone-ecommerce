@@ -183,6 +183,11 @@ body {
 .produto-link {
     text-decoration: none;
     color: black;
+    font-size: 0.9rem;
+}
+
+.produto-link:hover {
+    color: black;
 }
 
 .preco-antigo {
@@ -202,3 +207,11 @@ body {
 }
 
 /* end produtos */
+
+/* begin footer */
+
+footer {
+    background-color: #eff5ff;
+}
+
+/* end footer */
