@@ -154,6 +154,31 @@ body {
     color: #102c4a;
 }
 
+.produto {
+    position:relative;
+}
+
+.desconto::before {
+    /* content: "40% off"; */
+    display: block;
+    position: absolute;
+    width: 85px;
+    height: 30px;
+    color: white;
+    background-color: #2680EB;
+    font-size: 0.8rem;
+    padding: 5px;
+    right: 12px;
+    border-radius: 3px 0 0 3px;
+}
+
+.desconto-40::before {
+    content: "40% OFF";
+}
+
+.desconto-38::before {
+    content: "38% OFF";
+}
 
 .produto-link {
     text-decoration: none;
@@ -170,6 +195,10 @@ body {
     font-weight: bold;
     font-size: 1.2rem;
     color: #102c4a;
+}
+
+.preco-atual .cifrao {
+    font-size: 0.9rem;
 }
 
 /* end produtos */
