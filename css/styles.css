@@ -176,6 +176,10 @@ nav {
     border-radius: 3px 0 0 3px;
 }
 
+.desconto-25::before {
+    content: "25% OFF";
+}
+
 .desconto-29::before {
     content: "29% OFF";
 }
@@ -186,6 +190,14 @@ nav {
 
 .desconto-40::before {
     content: "40% OFF";
+}
+
+.desconto-58::before {
+    content: "58% OFF";
+}
+
+.desconto-60::before {
+    content: "60% OFF";
 }
 
 .produto-link {
