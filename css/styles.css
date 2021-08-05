@@ -222,6 +222,45 @@ footer {
     background-color: #eff5ff;
 }
 
+/* footer mobile start */
+
+.accordion-custom * {
+    background-color: #eff5ff;
+}
+
+.accordion-custom button,
+.footer-nav h2 {
+    text-transform: lowercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #102c4a;
+    letter-spacing: 1px;
+}
+
+.footer-nav h2 {
+    border-bottom: 1px solid #ccc;
+}
+
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav a {
+    font-size: 0.7rem;
+    color: #888;
+    text-decoration: none;
+    text-transform: lowercase;
+    letter-spacing: 0.5px;
+    line-height: 2rem;
+}
+/* footer mobile end  */
+
+.footer-nav-desktop {
+    border-bottom: solid 1px #ccc;
+}
+
 .logos-footer {
     list-style: none;
     border-bottom: solid 1px #ccc;
@@ -231,5 +270,28 @@ footer {
 .logos-footer svg {
     height: 20px;
 }
+
+/* footer info start  */
+.info-footer h3 {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #102c4a;
+    letter-spacing: 1px;
+}
+
+.info-footer p,
+.info-footer a {
+    font-size: 0.7rem;
+    color: #102c4a;
+    margin: 0;
+}
+
+
+.info-footer a {
+    font-weight: bold;
+    text-decoration: none;
+}
+/* footer info end  */
 
 /* end footer */
