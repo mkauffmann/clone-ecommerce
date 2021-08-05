@@ -133,15 +133,31 @@ nav {
 }
 
 .img-carousel-1 {
-    background-image: url(../images/banner-principal-1.jpeg);
+    background-image: url(../images/banner-principal-1-mobile.webp);
 }
 
+
 .img-carousel-2 {
-    background-image: url(../images/banner-principal-2.jpeg);
+    background-image: url(../images/banner-principal-2-mobile.webp);
 }
 
 .img-carousel-3 {
-    background-image: url(../images/banner-principal-3.jpeg);
+    background-image: url(../images/banner-principal-3-mobile.gif);
+}
+
+@media (min-width: 768px){
+
+    .img-carousel-1 {
+        background-image: url(../images/banner-principal-1.jpeg);
+    }
+    
+    .img-carousel-2 {
+        background-image: url(../images/banner-principal-2.jpeg);
+    }
+    
+    .img-carousel-3 {
+        background-image: url(../images/banner-principal-3.jpeg);
+    }
 }
 
 /* end carrosel principal */
