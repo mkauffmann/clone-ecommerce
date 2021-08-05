@@ -222,4 +222,14 @@ footer {
     background-color: #eff5ff;
 }
 
+.logos-footer {
+    list-style: none;
+    border-bottom: solid 1px #ccc;
+}
+
+.logos-footer img,
+.logos-footer svg {
+    height: 20px;
+}
+
 /* end footer */
