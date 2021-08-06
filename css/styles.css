@@ -178,6 +178,21 @@ nav {
     position:relative;
 }
 
+.container-imagem {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-produto {
+    position: absolute;
+    width: 100%;
+    background-color: #2680EB;
+    left: 0;
+    bottom: 0;
+    transform: translate(-300px, 0);
+    transition: 0.3s ease-in;
+}
+
 .desconto::before {
     /* content: "40% off"; */
     display: block;
@@ -188,7 +203,7 @@ nav {
     background-color: #2680EB;
     font-size: 0.8rem;
     padding: 5px;
-    right: 12px;
+    right: 0;
     border-radius: 3px 0 0 3px;
 }
 
