@@ -25,7 +25,7 @@ for (let i = 0; i < containerImg.length; i++){
     })
     
     containerImg[i].addEventListener('mouseout', function() {
-        btnProduto[i].style.transform = "translate(-300px, 0)";
+        btnProduto[i].style.transform = "translate(-500px, 0)";
     })
 }
 //botões de compra rápida end
